@@ -7,11 +7,11 @@ Produces an Github like identicon image that is saved into your Downloads, as im
 You will need to pass a string to Identicon.main. You will get back a Vix Vips code referencing your identicon image. Example input: 
 ```
 iex> Identicon.main("Elixir")
-``
+```
 Output:
 ```
 %Vix.Vips.Image{ref: #Reference<0.3738600810.2635726871.219300>}
-``
+```
 
 The image will automatically save in your Downloads directory as image.png 
 
